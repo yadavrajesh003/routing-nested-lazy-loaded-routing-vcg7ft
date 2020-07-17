@@ -1,0 +1,18 @@
+<pre class="text-warning">
+Router layout:
+==============
+- OneModule
+  - OneComponent
+  - ThreeModule
+    - ThreeComponent
+  - FourModule
+    - FourComponent
+- TwoModule
+  - TwoComponent
+</pre>
+<hr/>
+<nav>
+<a [routerLink]="['one']">One</a>
+<a [routerLink]="['two']">Two</a>
+</nav>
+<router-outlet></router-outlet>
