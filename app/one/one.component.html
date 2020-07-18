@@ -1,10 +1,10 @@
-<p>
-one works!
-</p>
+<div class="bg-color">
+<h3>
+Component One and children works!!
+</h3>
 <nav>
-<a [routerLink]="['/one']">One</a>
-<a [routerLink]="['/two']">Two</a>
-<a [routerLink]="['three']">Three</a>
-<a [routerLink]="['four']">Four</a>
+<a class="green" routerLinkActive="active" [routerLink]="['three']">Three</a>
+<a class="green" routerLinkActive="active" [routerLink]="['four']">Four</a>
 </nav>
+</div>
 <router-outlet></router-outlet>

@@ -1,0 +1,27 @@
+a{
+  text-decoration: none;
+  border: 1px solid gray;
+  padding: 5px;
+  cursor: pointer;
+  background-color: yellowgreen;
+
+}
+a.red{
+  font-weight: bold;
+  color: red;
+}
+
+a.green{
+  font-style: italic;
+  font-weight: bolder;
+  color: green;
+}
+
+.bg-color{
+background-color: yellow;
+padding: 10px;
+}
+
+.active{
+  background-color:saddlebrown;
+}

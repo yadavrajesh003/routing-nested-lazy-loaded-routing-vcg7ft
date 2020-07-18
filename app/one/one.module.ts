@@ -8,8 +8,8 @@ const routes: Routes = [
   {
     path: '',
     component: OneComponent,
-    children: [
-      { path: '', redirectTo: 'three' },
+    children: [  
+      { path: '', redirectTo: 'three' }, // Comment to make lazy    
       { path: 'three', loadChildren: './three/three.module#ThreeModule' },
       { path: 'four', loadChildren: './four/four.module#FourModule' }
     ]
