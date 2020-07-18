@@ -9,7 +9,7 @@ const routes: Routes = [
     path: '',
     component: OneComponent,
     children: [  
-      { path: '', redirectTo: 'three' }, // Comment to make lazy    
+      { path: '', redirectTo: 'three' }, // not three then comment    
       { path: 'three', loadChildren: './three/three.module#ThreeModule' },
       { path: 'four', loadChildren: './four/four.module#FourModule' }
     ]
